@@ -49,3 +49,27 @@ il{
     color: black;
     fontsize:10px;
 }
+/* الألوان الافتراضية (الوضع الفاتح) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* الألوان الخاصة بوضعية الدارك مود */
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
